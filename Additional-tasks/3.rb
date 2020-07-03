@@ -1,6 +1,5 @@
 #3.	Кожна планета має свій номер (порядок від Сонця). За заданим значенням номера повернути назва планети.
-class Task3
-    def task3
+
     puts "Введіть  номер планети для отримання її назви: "
     number = gets.chomp
     number = number.to_i
@@ -31,5 +30,4 @@ class Task3
         when 8 then puts"Планета #{neptune} "
         when 9 then puts"Планета #{pluto} "
         end
-    end
-end
+

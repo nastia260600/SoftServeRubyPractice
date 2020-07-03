@@ -2,8 +2,7 @@
   Порахувати, скільки грошей буде заощаджено. Дано три цілих: ціна товару, знижка (у відсотках) за одиницю товару,
   кількість товару. Повернути: заощаджену суму (ціле число, заокруглити, якщо потрібно).
 =end
-class Task2
-  def task2
+
     puts "Введіть ціну: "
     price = gets.chomp
     price = price.to_f
@@ -20,5 +19,4 @@ class Task2
     discount_price = (price - ((price * discount)/100)) * count
     saved_money = total_price - discount_price
     puts "Буде заощаджено #{saved_money} грошей"
-  end
-end
+
